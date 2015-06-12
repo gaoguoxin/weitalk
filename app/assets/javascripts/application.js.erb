@@ -16,6 +16,14 @@
 //= require_tree .
 
 		$(document).ready(function() {
+			var talk1 = "<%= asset_path('talk1.png') %>";
+			var talk2 = "<%= asset_path('talk2.png') %>";
+			var talk3 = "<%= asset_path('talk3.png') %>";
+			var talk4 = "<%= asset_path('talk4.png') %>";
+			var talk5 = "<%= asset_path('talk5.png') %>";
+			var talk6 = "<%= asset_path('talk6.png') %>";
+			var talk7 = "<%= asset_path('talk7.png') %>";
+			var talk8 = "<%= asset_path('talk8.png') %>";									
 			$(".faceimg").each(function() {
 	  			var w = $(this).width() ;
 	  			$(this).css("height",w);
@@ -34,38 +42,40 @@
 			$("#player12")[0].ifplay=0;
 			
 			function init(){
-				$("#audio1").attr("src","/assets/talk4.png")
-				$("#audio2").attr("src","/assets/talk4.png")
-				$("#audio3").attr("src","/assets/talk1.png")
-				$("#audio5").attr("src","/assets/talk4.png")
-				$("#audio6").attr("src","/assets/talk4.png")
-				$("#audio7").attr("src","/assets/talk1.png")
-				$("#audio8").attr("src","/assets/talk1.png")
-				$("#audio9").attr("src","/assets/talk1.png")
-				$("#audio10").attr("src","/assets/talk1.png")
-				$("#audio11").attr("src","/assets/talk4.png")
-				$("#audio12").attr("src","/assets/talk4.png")
+				
+				
+				$("#audio1").attr("src",talk4)
+				$("#audio2").attr("src",talk4)
+				$("#audio3").attr("src",talk4)
+				$("#audio5").attr("src",talk4)
+				$("#audio6").attr("src",talk4)
+				$("#audio7").attr("src",talk1)
+				$("#audio8").attr("src",talk1)
+				$("#audio9").attr("src",talk1)
+				$("#audio10").attr("src",talk1)
+				$("#audio11").attr("src",talk4)
+				$("#audio12").attr("src",talk4)
 			}
 			function talking(s){
-				if ($(s).attr("src")=="/assets/talk1.png")
+				if ($(s).attr("src")== talk1)
 				{
-					$(s).attr("src","/assets/talk2.png");
-				}else if ($(s).attr("src")=="/assets/talk2.png")
+					$(s).attr("src",talk2);
+				}else if ($(s).attr("src")== talk2)
 				{
-					$(s).attr("src","/assets/talk3.png");
-				}else if ($(s).attr("src")=="/assets/talk3.png")
+					$(s).attr("src",talk3);
+				}else if ($(s).attr("src")== talk3)
 				{
-					$(s).attr("src","/assets/talk1.png");
+					$(s).attr("src",talk1);
 				}	
-				if ($(s).attr("src")=="/assets/talk4.png")
+				if ($(s).attr("src")== talk4)
 				{
-					$(s).attr("src","/assets/talk5.png");
-				}else if ($(s).attr("src")=="/assets/talk5.png")
+					$(s).attr("src",talk5);
+				}else if ($(s).attr("src")== talk5)
 				{
-					$(s).attr("src","/assets/talk6.png");
-				}else if ($(s).attr("src")=="/assets/talk6.png")
+					$(s).attr("src",talk6);
+				}else if ($(s).attr("src")== talk6)
 				{
-					$(s).attr("src","/assets/talk4.png");
+					$(s).attr("src",talk4);
 				}
 			}
 			function allstop(){
