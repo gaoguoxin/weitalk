@@ -1,209 +1,219 @@
 html{
-	width: 100%;
-	margin: 0px;
+  width: 100%;
+  margin: 0px;
 }
 body{
-	width: 100%;
-	margin: 0px;
-	position: relative;
-	background: #9C9CA8;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  background:  image-url("img/bg.png")   fixed no-repeat;
+  background-size: 100%  100%;
 }
 .container{
-	width: 100%;
-	min-height: 100vh;
-	position: relative;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
 }
 
 header{
-	width: 100%;
-	height: 100px;
-	position: relative;
-	text-align: center;
+  width: 100%;
+  height: 160px;
+  position: relative;
+  text-align: center;
+  background: image-url("img/headimg.png") no-repeat;
+  background-size: 100% 100%;
+}
+footer{
+  width: 100%;
+  height: 160px;
+  position: relative;
+  background: image-url("img/footimg.png") no-repeat;
+  background-size: 100% 100%;
 }
 .textstyle1{
-	top:20%;
-	font-size: 20px;
-	font-weight: 500;
-	position: relative;
+  top:20%;
+  font-size: 23px;
+  font-weight: 500;
+  position: relative;
+  color: #2D2121
 }
 .messagelist{
-	list-style-type: none;
-	width: 100%;
-	position: relative;
+  list-style-type: none;
+  width: 100%;
+  position: relative;
 }
 
 .time{
-	width: 100%;
-	position: relative;
-	text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
 }
 .timebox{
-	color: white;
-	border-radius: 5px;
-	position: relative;
-	border-radius: 5px;
-	border:3px solid white;
+  color: #A99797;
+  border-radius: 5px;
+  position: relative;
+  border-radius: 5px;
+  border:3px solid #CCC4C4;
+  padding:3px;
+
 }
 .team{
-	width: 100%;
-	position: relative;
-	padding-top: 20px;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
 }
 .teambox{
-	text-indent: 2em;
-	width: 80%;
-	position: relative;
-	margin: auto;
-	color: white;
-	border-radius: 5px;
-	border:3px solid white;
-	padding-left: 10px;
-	padding-right: 10px;
+  text-indent: 2em;
+  width: 80%;
+  position: relative;
+  margin: auto;
+  color: #866969;
+  border-radius: 5px;
+  border:3px solid #CCC4C4;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .imgmessage{
-	position: relative;
-	width: 60%;
-	height: 280px;
-	left: 10%;
-	display: block;
-	margin-top: 10px;
+  position: relative;
+  width: 60%;
+  height: 280px;
+  left: 10%;
+  display: block;
+  margin-top: 10px;
 }
 
 .videomessage{
-	position: relative;
-	width: 60%;
-	height: 150px;
-	left: 10%;
-	display: block;
-	margin-top: 30px;
+  position: relative;
+  width: 60%;
+  height: 150px;
+  left: 10%;
+  display: block;
+  margin-top: 30px;
 }
 .audiomessage{
-	position: relative;
-	width: 60%;
-	height: 70px;
-	left: 10%;
-	display: block;
-	margin-top: 10px;
+  position: relative;
+  width: 60%;
+  height: 70px;
+  left: 10%;
+  display: block;
+  margin-top: 10px;
 }
 .myaudiomessage{
-	position: relative;
-	width: 60%;
-	height: 70px;
-	left: 30%;
-	display: block;
-	margin-top: 10px;
+  position: relative;
+  width: 60%;
+  height: 70px;
+  left: 30%;
+  display: block;
+  margin-top: 10px;
 }
 
 .faceimg{
-	width: 20%;
-	top:40px;
-	position: relative;
-	float: left;
+  width: 20%;
+  top:40px;
+  position: relative;
+  float: left;
 }
 .audiofaceimg{
-	width: 20%;
-	top:30px;
-	position: relative;
-	float: left;
+  width: 20%;
+  top:30px;
+  position: relative;
+  float: left;
 }
 .myfaceimg{
-	width: 20%;
-	top:35px;
-	position: relative;
-	float: right;
+  width: 20%;
+  top:35px;
+  position: relative;
+  float: right;
 }
 .headbox{
-	width: 100%;
-	position: relative;
+  width: 100%;
+  position: relative;
 }
 .content{
-	width: 80%;
-	height: 100%;
-	position: relative;
-	float: right;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  float: right;
 }
 .mycontent{
-	width: 80%;
-	height: 100%;
-	position: relative;
-	float: left;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  float: left;
 }
 .namebox{
-	width: 100%;
-	height: 30px;
-	top:5px;
-	position: relative;
-	text-indent: 1em;
+  width: 100%;
+  height: 30px;
+  top:5px;
+  position: relative;
+  text-indent: 1em;
 }
 .name{
-	font-size: 14px;
-	position: relative;
-	color: white;
-	line-height: 30px;
+  font-size: 12px;
+  position: relative;
+  color: #7B6C6C;
+  line-height: 30px;
 }
 .myname{
-	float: right;
-	color: white;
-	right:1em;
-	font-size: 14px;
-	position: relative;
-	line-height: 30px;
+  float: right;
+  color: #7B6C6C;
+  right:1em;
+  font-size: 12px;
+  position: relative;
+  line-height: 30px;
 }
 .imgcontext{
-	width: 160%;
-	height: 250px;
-	position: relative;
-	background: image-url("tupiankuang.png") no-repeat;
-	background-size: 100%;
+  width: 160%;
+  height: 250px;
+  position: relative;
+  background: image-url("tupiankuang.png") no-repeat;
+  background-size: 100%;
 }
 .videocontext{
-	width: 100%;
-	height: 120px;
-	position: relative;
+  width: 100%;
+  height: 120px;
+  position: relative;
 }
 .video{
-	width: 75%;
-	top:25%;
-	left: 12%;
-	position: relative;
+  width: 75%;
+  top:25%;
+  left: 12%;
+  position: relative;
 }
 .audiocontext{
-	width: 100%;
-	height: 40px;
-	position: relative;
-	background: image-url("ltalk.png") no-repeat;
-	background-size:   auto 90%;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  background: image-url("ltalk.png") no-repeat;
+  background-size:   auto 90%;
 }
 .myaudiocontext{
-	width: 100%;
-	height: 40px;
-	position: relative;
-	background: image-url("rtalk.png") no-repeat;
-	background-size: auto 90%;
-	background-position: right;
-	float: right;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  background: image-url("rtalk.png") no-repeat;
+  background-size: auto 90%;
+  background-position: right;
+  float: right;
 }
 .audioimg{
-	height: 50%;
-	left: 12%;
-	top:15%;
-	position: relative;
+  height: 50%;
+  left: 12%;
+  top:15%;
+  position: relative;
 }
 .myaudioimg{
-	height: 50%;
-	right: 14%;
-	top: 20%;
-	float: right;
-	position: relative;
+  height: 50%;
+  right: 14%;
+  top: 20%;
+  float: right;
+  position: relative;
 }
 .messageimg{
-	width: 70%;
-	left: 15%;
-	top: 18%;
-	margin: auto;
-	position: relative;
-}
-
-.audio{
-
+  width: 70%;
+  left: 15%;
+  top: 18%;
+  margin: auto;
+  position: relative;
 }
