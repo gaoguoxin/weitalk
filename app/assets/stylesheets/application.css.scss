@@ -208,8 +208,9 @@ footer{
   height:40px;
   line-height:40px;
   left:60%;
-  // top:0px;
-  // left:70%;
+  @media screen and (max-width: 320px){
+    left:70%;
+  }
 }
 
 .audiocontext .info-box i{
@@ -222,7 +223,10 @@ footer{
 }
 
 .audiocontext .info-box.l{
-  left:70%;
+  left:60%;
+  @media screen and (max-width: 320px){
+    left:70%;
+  }  
 }
 
 .audiocontext .info-box .timer{
@@ -245,6 +249,9 @@ footer{
   height:40px;
   line-height:40px; 
   right:10%; 
+  @media screen and (max-width: 320px){
+    right:16%;
+  }  
 }
 
 
@@ -283,4 +290,15 @@ footer{
   top: 18%;
   margin: auto;
   position: relative;
+}
+
+.copyright{
+  height:32px;
+  line-height: 32px;
+  text-align:center;
+  background:#ebebeb;
+  // opacity:0.8;
+  font-size:14px;
+  color:#878787;
+  margin-bottom:10px;
 }
