@@ -203,11 +203,13 @@ footer{
 }
 
 .audiocontext .info-box{
-  position:absolute;
+  position:relative;
+  display:inline-block;
   height:40px;
   line-height:40px;
-  top:0px;
-  left:70%;
+  left:50%;
+  // top:0px;
+  // left:70%;
 }
 
 .audiocontext .info-box i{
@@ -239,11 +241,9 @@ footer{
 }
 
 .myaudiocontext .my-info-box{
-  position:absolute;
+  position:relative;
   height:40px;
   line-height:40px;  
-  top:0px;
-  right:60%;
 }
 
 
@@ -258,6 +258,7 @@ footer{
 
 .myaudiocontext .my-info-box .timer{
   color:#a1a3a6;
+  text-align:center;
 }
 
 
