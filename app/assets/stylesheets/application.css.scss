@@ -207,7 +207,7 @@ footer{
   display:inline-block;
   height:40px;
   line-height:40px;
-  left:50%;
+  left:60%;
   // top:0px;
   // left:70%;
 }
@@ -243,7 +243,8 @@ footer{
 .myaudiocontext .my-info-box{
   position:relative;
   height:40px;
-  line-height:40px;  
+  line-height:40px; 
+  right:10%; 
 }
 
 
@@ -265,6 +266,7 @@ footer{
 .audioimg{
   height: 50%;
   left: 12%;
+  float:left;
   top:15%;
   position: relative;
 }
