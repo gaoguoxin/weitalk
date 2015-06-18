@@ -96,6 +96,7 @@
 				var s="#audio"+num;
 				var ss="#player"+num;
 				$(s).click(function(event) {
+					$(s).next().find('i').css('background','none');
 		  			if ($(ss)[0].ifplay==0){
 		  				allstop();
 						clearInterval(timer);init();
